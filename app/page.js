@@ -12,22 +12,24 @@ export default function Page() {
         color: "#111111",
       }}
     >
-      <h1 style={{ fontSize: "48px", margin: 0 }}>shiroDiff Test</h1>
+      <h1 style={{ fontSize: "48px", margin: 0, color: "#16a34a" }}>
+        shiroDiff Test
+      </h1>
       <p style={{ fontSize: "20px", margin: 0, color: "#444444" }}>
-        Baseline version — nothing changed yet.
+        Updated version — this is the visual change shiroDiff should catch.
       </p>
       <button
         style={{
-          padding: "12px 28px",
+          padding: "16px 36px",
           fontSize: "16px",
-          borderRadius: "8px",
+          borderRadius: "9999px",
           border: "none",
-          background: "#2563eb",
+          background: "#16a34a",
           color: "#ffffff",
           cursor: "pointer",
         }}
       >
-        Get Started
+        Get Started Free
       </button>
     </main>
   );
